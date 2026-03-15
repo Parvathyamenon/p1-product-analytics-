@@ -2,10 +2,10 @@
 
 ![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=flat&logo=powerbi&logoColor=black)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/sqllite-4169E1?style=flat&logo=sqllite&logoColor=white)
+![Sqllite](https://img.shields.io/badge/sqllite-4169E1?style=flat&logo=sqllite&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white)
 
-**Tools:** SQL (PostgreSQL) · Python · Pandas · Power BI  
+**Tools:** SQL  · Python · Pandas · Power BI  
 **Dataset:** Olist Brazilian E-Commerce · 99,441 orders · [kaggle.com/olistbr](https://www.kaggle.com/olistbr/brazilian-ecommerce)
 
 ---
@@ -77,8 +77,8 @@ p1-product-analytics/
 │   ├── olist_order_items_dataset.csv
 │   └── olist_order_payments_dataset.csv
 ├── sql/
-│   ├── cohort_retention.sql        # PostgreSQL — cohort analysis
-│   └── churn_rate.sql              # PostgreSQL — monthly churn rate
+│   ├── cohort_retention.sql        # cohort analysis
+│   └── churn_rate.sql              #  monthly churn rate
 ├── output/
 │   └── Power BI dashboard.png      ← dashboard screenshot
 ├── retention_analysis.py
@@ -98,18 +98,12 @@ python retention_analysis.py
 ```
 
 **SQL queries** — run in DBeaver or any PostgreSQL client:
-```bash
-# Load CSVs into PostgreSQL first, then:
-psql -d your_database -f sql/cohort_retention.sql
-psql -d your_database -f sql/churn_rate.sql
-```
 
----
 
 ## 👤 Author
 
 **Parvathy Menon**  
-Business Intelligence Engineer · 8+ years Amazon  
+Business Analyst · 8+ years Amazon  
 📧 a.menon.parvathy@gmail.com  
 🔗 [linkedin.com/in/parvathymenon-1aa75a100](https://linkedin.com/in/parvathymenon-1aa75a100)  
 🐙 [github.com/Parvathyamenon](https://github.com/Parvathyamenon)
