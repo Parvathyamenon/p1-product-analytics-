@@ -1,4 +1,5 @@
-# Product Analytics Dashboard
+## Dashboard _Power BI
+![Product Analytics Dashboard](output/Dashboard_output.png)
 **Tools:** SQL · Python · Pandas · Power BI
 **Dataset:** Olist Brazilian E-Commerce (100K orders, kaggle.com/olistbr)
 
@@ -10,9 +11,9 @@ highest retention? Where is churn highest? What is average customer lifetime val
 ![Product Analytics Dashboard](output/product_analytics_dashboard.png)
 
 ## Key Findings
-- Month-0 to Month-1 retention: X% (replace with your actual number)
-- Average Customer Lifetime Value: R$XXX
-- Highest-value customer cohort: [month] (replace with your finding)
+- Month-0 to Month-1 retention: 10% (replace with your actual number)
+- Average Customer Lifetime Value: R$16.01 M
+- Highest-value customer cohort: [November 2017] (replace with your finding)
 
 ## Amazon Parallel
 At Amazon, I built cohort-style retention tracking for compliance KPIs
@@ -22,3 +23,6 @@ to customer retention — the pattern is identical.
 ## How to Run
 pip install pandas matplotlib seaborn
 python retention_analysis.py
+
+
+
